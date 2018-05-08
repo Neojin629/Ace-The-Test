@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffb1"
+        android:orientation="vertical"
+        android:paddingEnd="0dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="0dp"
+        android:paddingStart="16dp">
+
+        <EditText
+            android:id="@+id/name_description_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/namedescription"
+            android:inputType="textPersonName"
+            android:textColorHint="#000000"
+            android:textSize="25sp"
+            android:fontFamily="@font/playball"/>
+
+
+        <TextView
+            android:id="@+id/question_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question_1"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#c62828"
+            android:fontFamily="@font/playball"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_1.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question1"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#1a237e" />
+
+        <RadioGroup
+            android:id="@+id/question1ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/abraham_lincoln"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/abraham_lincoln"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/george_washington"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/george_washington"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/william_clinton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/william_clinton"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/teddy_roosevelt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teddy_roosevelt"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question_2"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#c62828"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_2.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question2"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#1a237e" />
+
+        <RadioGroup
+            android:id="@+id/question2ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/june_5th_1865"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/june_5th_1865"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/january_23rd_1776"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/january_23rd_1776"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/march_9th_1921"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/march_9th_1921"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/july_4th_1776"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/july_4th_1776"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question_3"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#c62828"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_3.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question3"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#1a237e" />
+
+        <RadioGroup
+            android:id="@+id/question3ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/bill_of_rights"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bill_of_rights"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/the_constitution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/the_constitution"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/the_articles_of_confederation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/articles_of_confederation"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/magna_carta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/the_magna_carta"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question_4"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#c62828"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_4.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question4"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#1a237e" />
+
+        <RadioGroup
+            android:id="@+id/question4ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/the_people"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/the_people"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/congress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/congress"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/the_supreme_court"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/the_supreme_court"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/the_president"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/the_president"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question_5"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#c62828"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_5.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question5"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#1a237e" />
+
+        <RadioGroup
+            android:id="@+id/question5ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/april_5th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/april_5th"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/april_1st"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/april_1st"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/april_30th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/april_30th"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/april_15th"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/april_15th"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question_6"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#c62828"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_6.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question6"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#1a237e" />
+
+        <RadioGroup
+            android:id="@+id/question6ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/russia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/russia"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/italy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/italy"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/iceland"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/iceland"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/england"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/england"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question_7"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#c62828"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_7.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question7"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#1a237e" />
+
+        <RadioGroup
+            android:id="@+id/question7ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/woodrow_wilson"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/woodrow_wilson"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/teddy_roosevelt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teddy_roosevelt"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/franklin_roosevelt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/franklin_roosevelt"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/george_washington2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/george_washington"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question_8"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#c62828"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_8.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question8"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#1a237e" />
+
+        <RadioGroup
+            android:id="@+id/question8ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/alaska"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alaska"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/florida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/florida"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/texas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texas"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/california"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/california"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/question_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question_9"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#c62828"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_9.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question9"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#1a237e" />
+
+
+        <CheckBox
+            android:id="@+id/great_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/great_food"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/vacation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a_vacation"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/escape_persecution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/escape_persecution"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <CheckBox
+            android:id="@+id/economic_opportunity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/economic_opportunity"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/question_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question_10"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#c62828"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/question_10.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/question10"
+            android:fontFamily="@font/playball"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#1a237e" />
+
+        <RadioGroup
+            android:id="@+id/question10ID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/fifty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_50"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/eighty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_80"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/one_hundred"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_100"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <RadioButton
+                android:id="@+id/four_hundred_thirty_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_435"
+                android:fontFamily="@font/playball"
+                android:textAppearance="?android:textAppearanceMedium" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/submit_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:onClick="submitAnswers"
+            android:text="@string/submit_answers"
+            android:fontFamily="@font/playball"
+            android:textColor="#1a237e"
+            android:textAppearance="?android:textAppearanceLarge"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/reset_quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:onClick="resetQuiz"
+            android:text="@string/reset_quiz"
+            android:fontFamily="@font/playball"
+            android:textColor="#1a237e"
+            android:textAppearance="?android:textAppearanceLarge"
+            style="?android:attr/borderlessButtonStyle"/>
+
+
+        <TextView
+            android:id="@+id/your_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/results"
+            android:fontFamily="@font/playball"
+            android:textColor="#1a237e"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
